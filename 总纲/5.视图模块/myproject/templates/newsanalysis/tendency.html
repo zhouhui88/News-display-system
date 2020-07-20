@@ -1,0 +1,181 @@
+{% extends 'newsanalysis/base.html' %}
+{% block title  %}趋势分析{% endblock title %}
+{% block p1 %}
+
+            <div class="col-sm-4">
+                <h2>阅读量趋势</h2>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">主页</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <strong>趋势分析</strong>
+                    </li>
+                </ol>
+
+        </div>
+
+{% endblock p1 %}
+
+{% block pt1 %}
+                <li class="active">
+                    <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">舆情分析</span>
+                        <span
+                            class="fa arrow">
+                        </span>
+                    </a>
+
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="keyword_search" >搜索词分析</a></li>
+                        <li class="active"><a href="tendency">趋势分析</a></li>
+                        <li ><a href="point_analysis">观点分析</a></li>
+                        <li><a href="media_analysis">媒体分析</a></li>
+                    </ul>
+
+                </li>
+{% endblock pt1 %}
+
+{% block p2 %}
+
+    <div class="col-lg-12">
+
+
+                    <div class="ibox ">
+
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="lineChart" height="140"></canvas>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+
+{% endblock p2%}
+
+{% block script1 %}
+
+<script>
+    $(function () {
+    var po=[];
+    po ={{ p2 |safe}};
+    console.log(po);
+
+
+    var lineData = {
+        labels: po,
+        datasets: [
+
+            {
+                label: "每日阅读量",
+                backgroundColor: 'rgba(26,179,148,0.5)',
+                borderColor: "rgba(26,179,148,0.7)",
+                pointBackgroundColor: "rgba(26,179,148,1)",
+                pointBorderColor: "#fff",
+                data: {{ p }}
+            }
+        ]
+    };
+
+    var lineOptions = {
+        responsive: true
+    };
+
+
+    var ctx = document.getElementById("lineChart").getContext("2d");
+    new Chart(ctx, {type: 'line', data: lineData, options:lineOptions});
+
+    var barData = {
+        labels: po,
+        datasets: [
+            {
+                label: "Data 1",
+                backgroundColor: 'rgba(220, 220, 220, 0.5)',
+                pointBorderColor: "#fff",
+                data: {{ p }}
+            }
+        ]
+    };
+
+    var barOptions = {
+        responsive: true
+    };
+
+
+    var ctx2 = document.getElementById("barChart").getContext("2d");
+    new Chart(ctx2, {type: 'bar', data: barData, options:barOptions});
+
+    var polarData = {
+        datasets: [{
+            data: [
+                300,140,200
+            ],
+            backgroundColor: [
+                "#a3e1d4", "#dedede", "#b5b8cf"
+            ],
+            label: [
+                "My Radar chart"
+            ]
+        }],
+        labels: [
+            "App","Software","Laptop"
+        ]
+    };
+
+    var polarOptions = {
+        segmentStrokeWidth: 2,
+        responsive: true
+
+    };
+
+    var ctx3 = document.getElementById("polarChart").getContext("2d");
+    new Chart(ctx3, {type: 'polarArea', data: polarData, options:polarOptions});
+
+    var doughnutData = {
+        labels: ["App","Software","Laptop" ],
+        datasets: [{
+            data: [300,50,100],
+            backgroundColor: ["#a3e1d4","#dedede","#b5b8cf"]
+        }]
+    } ;
+
+
+    var doughnutOptions = {
+        responsive: true
+    };
+
+
+    var ctx4 = document.getElementById("doughnutChart").getContext("2d");
+    new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+
+    var radarData = {
+        labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+        datasets: [
+            {
+                label: "My First dataset",
+                backgroundColor: "rgba(220,220,220,0.2)",
+                borderColor: "rgba(220,220,220,1)",
+                data: [65, 59, 90, 81, 56, 55, 40]
+            },
+            {
+                label: "My Second dataset",
+                backgroundColor: "rgba(26,179,148,0.2)",
+                borderColor: "rgba(26,179,148,1)",
+                data: [28, 48, 40, 19, 96, 27, 100]
+            }
+        ]
+    };
+
+    var radarOptions = {
+        responsive: true
+    };
+
+    var ctx5 = document.getElementById("radarChart").getContext("2d");
+    new Chart(ctx5, {type: 'radar', data: radarData, options:radarOptions});
+
+});
+
+</script>
+
+
+{% endblock script1 %}

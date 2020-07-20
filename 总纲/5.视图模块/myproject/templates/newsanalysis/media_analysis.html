@@ -1,0 +1,417 @@
+{% extends 'newsanalysis/base.html' %}
+{% block title  %}媒体分析{% endblock title %}
+{% block p1 %}
+
+            <div class="col-sm-4">
+                <h2>媒体分析</h2>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">主页</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <strong>媒体分析</strong>
+                    </li>
+                </ol>
+
+        </div>
+
+{% endblock p1 %}
+
+{% block pt1 %}
+                <li class="active">
+                    <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">舆情分析</span>
+                        <span
+                            class="fa arrow">
+                        </span>
+                    </a>
+
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="keyword_search" >搜索词分析</a></li>
+                        <li><a href="tendency">趋势分析</a></li>
+                        <li ><a href="point_analysis">观点分析</a></li>
+                        <li class="active"><a href="media_analysis">媒体分析</a></li>
+                    </ul>
+
+                </li>
+{% endblock pt1 %}
+
+{% block p2 %}
+
+    <div class="wrapper wrapper-content animated fadeInRight">
+
+            <div class="row">
+                <div class="form-group">
+                        <label class="font-normal">请选择类别</label>
+                        <div>
+                            <select  id="selectkind" data-placeholder="choose_one_time" class="chosen-select"  tabindex="2" onchange="role()">
+                                <option   value="" class="active">&#12288;&#12288;&#12288;请选择&#12288;&#12288;&#12288;</option>
+                                <option   value="1" >&#12288;&#12288;&#12288;网易-新时代&#12288;&#12288;&#12288;</option>
+                                <option   value="2">&#12288;&#12288;&#12288;网易-数码&#12288;&#12288;&#12288;</option>
+                                <option   value="3">&#12288;&#12288;&#12288;网易-国内&#12288;&#12288;&#12288;</option>
+                                <option   value="4">&#12288;&#12288;&#12288;网易-国际&#12288;&#12288;&#12288;</option>
+                                <option   value="5">&#12288;&#12288;&#12288;网易-基金&#12288;&#12288;&#12288;</option>
+                                <option   value="6">&#12288;&#12288;&#12288;网易-体育&#12288;&#12288;&#12288;</option>
+                                <option   value="7">&#12288;&#12288;&#12288;网易-明星&#12288;&#12288;&#12288;</option>
+                                <option   value="8">&#12288;&#12288;&#12288;网易-股票&#12288;&#12288;&#12288;</option>
+                                <option   value="9">&#12288;&#12288;&#12288;网易-科技&#12288;&#12288;&#12288;</option>
+                                <option   value="10">&#12288;&#12288;&#12288;头条新闻&#12288;&#12288;&#12288;</option>
+                            </select>
+                        </div>
+                </div>
+                <div class="col-lg-12"  id="index" style="display: block">
+                    <div class="ibox ">
+
+                        <div class="ibox-content">
+                            <div>
+                                <img class="d-block w-100" src="/static/images/project/media_index.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12"  id="1" style="display: none">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>网易</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="barChart1" height="140"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12" id="2" style="display: none">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>网易</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="barChart2" height="140"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12" id="3" style="display: none">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>网易</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="barChart3" height="140"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12" id="4" style="display: none">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>网易</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="barChart4" height="140"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12" id="5" style="display: none">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>网易</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="barChart5" height="140"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12" id="6" style="display: none">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>网易</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="barChart6" height="140"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12" id="7" style="display: none">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>网易</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="barChart7" height="140"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12" id="8" style="display: none">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>网易</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="barChart8" height="140"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12" id="9" style="display: none">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>网易</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="barChart9" height="140"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12" id="10" style="display: none">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>头条</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div>
+                                <canvas id="barChart10" height="140"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+{% endblock p2 %}
+
+
+
+{% block script1 %}
+
+<script>
+function role() {
+        var sel1 = document.getElementById('selectkind');
+        var index = sel1.selectedIndex;
+        var value = sel1.options[index].value;
+        console.log(value);
+        if(value == 1){
+            document.getElementById("index").style.display="none";
+            document.getElementById("1").style.display="block";
+            document.getElementById("2").style.display="none";
+            document.getElementById("3").style.display="none";
+            document.getElementById("4").style.display="none";
+            document.getElementById("5").style.display="none";
+            document.getElementById("6").style.display="none";
+            document.getElementById("7").style.display="none";
+            document.getElementById("8").style.display="none";
+            document.getElementById("9").style.display="none";
+            document.getElementById("10").style.display="none";
+
+        }
+        else if(value ==2){
+            document.getElementById("index").style.display="none";
+            document.getElementById("1").style.display="none";
+            document.getElementById("2").style.display="block";
+            document.getElementById("3").style.display="none";
+            document.getElementById("4").style.display="none";
+            document.getElementById("5").style.display="none";
+            document.getElementById("6").style.display="none";
+            document.getElementById("7").style.display="none";
+            document.getElementById("8").style.display="none";
+            document.getElementById("9").style.display="none";
+            document.getElementById("10").style.display="none";
+        }
+        else if (value == 3){
+            document.getElementById("index").style.display="none";
+            document.getElementById("1").style.display="none";
+            document.getElementById("2").style.display="none";
+            document.getElementById("3").style.display="block";
+            document.getElementById("4").style.display="none";
+            document.getElementById("5").style.display="none";
+            document.getElementById("6").style.display="none";
+            document.getElementById("7").style.display="none";
+            document.getElementById("8").style.display="none";
+            document.getElementById("9").style.display="none";
+            document.getElementById("10").style.display="none";
+
+        }
+        else if (value == 4){
+            document.getElementById("index").style.display="none";
+            document.getElementById("1").style.display="none";
+            document.getElementById("2").style.display="none";
+            document.getElementById("3").style.display="none";
+            document.getElementById("4").style.display="block";
+            document.getElementById("5").style.display="none";
+            document.getElementById("6").style.display="none";
+            document.getElementById("7").style.display="none";
+            document.getElementById("8").style.display="none";
+            document.getElementById("9").style.display="none";
+            document.getElementById("10").style.display="none";
+
+        }
+        else if (value == 5){
+            document.getElementById("index").style.display="none";
+            document.getElementById("1").style.display="none";
+            document.getElementById("2").style.display="none";
+            document.getElementById("3").style.display="none";
+            document.getElementById("4").style.display="none";
+            document.getElementById("5").style.display="block";
+            document.getElementById("6").style.display="none";
+            document.getElementById("7").style.display="none";
+            document.getElementById("8").style.display="none";
+            document.getElementById("9").style.display="none";
+            document.getElementById("10").style.display="none";
+
+        }
+        else if (value == 6){
+            document.getElementById("index").style.display="none";
+            document.getElementById("1").style.display="none";
+            document.getElementById("2").style.display="none";
+            document.getElementById("3").style.display="none";
+            document.getElementById("4").style.display="none";
+            document.getElementById("5").style.display="none";
+            document.getElementById("6").style.display="block";
+            document.getElementById("7").style.display="none";
+            document.getElementById("8").style.display="none";
+            document.getElementById("9").style.display="none";
+            document.getElementById("10").style.display="none";
+
+        }
+        else if (value == 7){
+            document.getElementById("index").style.display="none";
+            document.getElementById("1").style.display="none";
+            document.getElementById("2").style.display="none";
+            document.getElementById("3").style.display="none";
+            document.getElementById("4").style.display="none";
+            document.getElementById("5").style.display="none";
+            document.getElementById("6").style.display="none";
+            document.getElementById("7").style.display="block";
+            document.getElementById("8").style.display="none";
+            document.getElementById("9").style.display="none";
+            document.getElementById("10").style.display="none";
+
+        }
+        else if (value == 8){
+            document.getElementById("index").style.display="none";
+            document.getElementById("1").style.display="none";
+            document.getElementById("2").style.display="none";
+            document.getElementById("3").style.display="none";
+            document.getElementById("4").style.display="none";
+            document.getElementById("5").style.display="none";
+            document.getElementById("6").style.display="none";
+            document.getElementById("7").style.display="none";
+            document.getElementById("8").style.display="block";
+            document.getElementById("9").style.display="none";
+            document.getElementById("10").style.display="none";
+
+        }
+        else if (value == 9){
+            document.getElementById("index").style.display="none";
+            document.getElementById("1").style.display="none";
+            document.getElementById("2").style.display="none";
+            document.getElementById("3").style.display="none";
+            document.getElementById("4").style.display="none";
+            document.getElementById("5").style.display="none";
+            document.getElementById("6").style.display="none";
+            document.getElementById("7").style.display="none";
+            document.getElementById("8").style.display="none";
+            document.getElementById("9").style.display="block";
+            document.getElementById("10").style.display="none";
+
+        }
+        else if (value == 10){
+            document.getElementById("index").style.display="none";
+            document.getElementById("1").style.display="none";
+            document.getElementById("2").style.display="none";
+            document.getElementById("3").style.display="none";
+            document.getElementById("4").style.display="none";
+            document.getElementById("5").style.display="none";
+            document.getElementById("6").style.display="none";
+            document.getElementById("7").style.display="none";
+            document.getElementById("8").style.display="none";
+            document.getElementById("9").style.display="none";
+            document.getElementById("10").style.display="block";
+
+        }
+        else {
+            document.getElementById("index").style.display="block";
+            document.getElementById("1").style.display="none";
+            document.getElementById("2").style.display="none";
+            document.getElementById("3").style.display="none";
+            document.getElementById("4").style.display="none";
+            document.getElementById("5").style.display="none";
+            document.getElementById("6").style.display="none";
+            document.getElementById("7").style.display="none";
+            document.getElementById("8").style.display="none";
+            document.getElementById("9").style.display="none";
+            document.getElementById("10").style.display="none";
+        }
+    }
+
+function view (a,b,c,d){
+    var barData = {
+        labels: a,
+        datasets: [
+
+            {
+                label: d,
+                backgroundColor: 'rgba(26,179,148,0.5)',
+                borderColor: "rgba(26,179,148,0.7)",
+                pointBackgroundColor: "rgba(26,179,148,1)",
+                pointBorderColor: "#fff",
+                data: b
+            },
+
+        ]
+    };
+
+    var barOptions = {
+        responsive: true
+    };
+
+
+    var ctx2 = document.getElementById(c).getContext("2d");
+    new Chart(ctx2, {type: 'bar', data: barData, options:barOptions});
+
+}
+$(function () {
+
+    var func1 =view({{ sou1|safe }},{{ cou1 }},"barChart1","新时代")
+    var func2 =view({{ sou2|safe }},{{ cou2 }},"barChart2","数码")
+    var func3 =view({{ sou3|safe }},{{ cou3 }},"barChart3","国内")
+    var func4 =view({{ sou4|safe }},{{ cou4 }},"barChart4","国际")
+    var func5 =view({{ sou5|safe }},{{ cou5 }},"barChart5","基金")
+    var func6 =view({{ sou6|safe }},{{ cou6 }},"barChart6","体育")
+    var func7 =view({{ sou7|safe }},{{ cou7 }},"barChart7","明星")
+    var func8 =view({{ sou8|safe }},{{ cou8 }},"barChart8","股票")
+    var func9 =view({{ sou9|safe }},{{ cou9 }},"barChart9","科技")
+    var func10 =view({{ sou10|safe }},{{ cou10 }},"barChart10","头条新闻")
+});
+
+</script>
+{% endblock script1 %}

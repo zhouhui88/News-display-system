@@ -1,0 +1,246 @@
+{% extends 'newsanalysis/base.html' %}
+{% block title  %}观点分析{% endblock title %}
+{% block p1 %}
+
+            <div class="col-sm-4">
+                <h2>情感观点统计</h2>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">主页</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <strong>观点分析</strong>
+                    </li>
+                </ol>
+
+        </div>
+
+{% endblock p1 %}
+{% block pt1 %}
+                <li class="active">
+                    <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">舆情分析</span>
+                        <span
+                            class="fa arrow">
+                        </span>
+                    </a>
+
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="keyword_search" >搜索词分析</a></li>
+                        <li><a href="tendency">趋势分析</a></li>
+                        <li class="active"><a href="point_analysis">观点分析</a></li>
+                        <li><a href="media_analysis">媒体分析</a></li>
+                    </ul>
+
+                </li>
+{% endblock pt1 %}
+
+{% block p2 %}
+
+    <div class="wrapper wrapper-content animated fadeInRight">
+
+        <div class="row">
+                <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>微博热搜</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart11"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>头条新闻</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart10"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>网易-国际新闻</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>网易-体育新闻</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>网易-股票新闻</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart5"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>网易-基金新闻</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart6"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>网易-科学新闻</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart7"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>网易-数码新闻</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart8"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>网易-明星新闻</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart9"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>网易-国内新闻</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="box_title">
+                            <h5>网易-新时代</h5>
+                            <div class="ibox-content" style="position: relative">
+                                <div class="flot-chart">
+                                    <div class="flot-chart-pie-content" id="flot-pie-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+    </div>
+
+{% endblock p2 %}
+
+
+
+{% block script %}
+
+
+{% endblock script %}
+
+
+
+{% block script1 %}
+
+<script>
+function view(a, b ,c , d) {
+
+     var data1 = [{
+        label: "中立:"+a,
+        data: a,
+        color: "#40E0D0",
+    }, {
+        label: "积极:"+b,
+        data: b,
+        color: "#FF8000",
+    }, {
+        label: "消极:"+c,
+        data: c,
+        color: "#666666",
+    }];
+
+    var plotObj = $.plot($(d), data1, {
+        series: {
+            pie: {
+                show: true
+            }
+        },
+        grid: {
+            hoverable: true
+        },
+        tooltip: true,
+        tooltipOpts: {
+            content: "%p.0%, %s", // show percentages, rounding to 2 decimal places
+            shifts: {
+                x: 20,
+                y: 0
+            },
+            defaultTheme: false
+        }
+    });
+}
+
+$(function() {
+    var fuc1 = view({{ neu1 }},{{ pos1 }},{{ neg1 }},"#flot-pie-chart")
+    var fuc2 = view({{ neu2 }},{{ pos2 }},{{ neg2 }},"#flot-pie-chart2")
+    var fuc3 = view({{ neu3 }},{{ pos3 }},{{ neg3 }},"#flot-pie-chart3")
+    var fuc4 = view({{ neu4 }},{{ pos4 }},{{ neg4 }},"#flot-pie-chart4")
+    var fuc5 = view({{ neu5 }},{{ pos5 }},{{ neg5 }},"#flot-pie-chart5")
+    var fuc6 = view({{ neu6 }},{{ pos6 }},{{ neg6 }},"#flot-pie-chart6")
+    var fuc7 = view({{ neu7 }},{{ pos7 }},{{ neg7 }},"#flot-pie-chart7")
+    var fuc8 = view({{ neu8 }},{{ pos8 }},{{ neg8 }},"#flot-pie-chart8")
+    var fuc9 = view({{ neu9 }},{{ pos9 }},{{ neg9 }},"#flot-pie-chart9")
+    var fuc10 = view({{ neu10 }},{{ pos10 }},{{ neg10 }},"#flot-pie-chart10")
+    var fuc11 = view({{ neu11 }},{{ pos11 }},{{ neg11 }},"#flot-pie-chart11")
+
+});
+</script>
+
+{% endblock script1 %}

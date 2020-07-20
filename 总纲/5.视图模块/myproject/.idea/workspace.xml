@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e33d80c-1333-4203-9e4a-1f08f43a477e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/myproject$analysis2mysql.coverage" NAME="analysis2mysql Coverage Results" MODIFIED="1556723161986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../4.情感分析模块/腾讯情感分析api" />
+    <SUITE FILE_PATH="coverage/myproject$news163_spider.coverage" NAME="news163_spider Coverage Results" MODIFIED="1558168069392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../1.爬虫模块" />
+    <SUITE FILE_PATH="coverage/myproject$views.coverage" NAME="views Coverage Results" MODIFIED="1555679485663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newsanalysis" />
+    <SUITE FILE_PATH="coverage/myproject$tab_row2tab.coverage" NAME="tab_row2tab Coverage Results" MODIFIED="1556707377403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../1.爬虫模块" />
+    <SUITE FILE_PATH="coverage/myproject$word_cloud.coverage" NAME="word_cloud Coverage Results" MODIFIED="1556718628200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../3.聚类模块/词云" />
+    <SUITE FILE_PATH="coverage/myproject$weibo_count.coverage" NAME="weibo_count Coverage Results" MODIFIED="1556708091719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../2.分词模块" />
+    <SUITE FILE_PATH="coverage/myproject$tab2tab.coverage" NAME="tab2tab Coverage Results" MODIFIED="1556723075529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../1.爬虫模块" />
+    <SUITE FILE_PATH="coverage/myproject$cut_words.coverage" NAME="cut_words Coverage Results" MODIFIED="1557649400134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../2.分词模块" />
+    <SUITE FILE_PATH="coverage/myproject$weibohot.coverage" NAME="weibohot Coverage Results" MODIFIED="1555642789399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../1.爬虫模块" />
+    <SUITE FILE_PATH="coverage/myproject$lda_cluster.coverage" NAME="lda_cluster Coverage Results" MODIFIED="1556819614465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../3.聚类模块/LDA" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newsanalysis/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newsanalysis/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newsanalysis/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="806">
+              <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newsanalysis/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="395" column="13" selection-start-line="395" selection-start-column="13" selection-end-line="395" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../1.爬虫模块/news163_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/newsanalysis/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/newsanalysis/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="41" column="62" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/newsanalysis/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/digital_news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="38" column="79" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/domestic_news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1752">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>margin</find>
+      <find>lightVersion</find>
+      <find>ibox-content</find>
+      <find>dark-timeline</find>
+      <find>.carousel-caption</find>
+      <find>darkVersion</find>
+      <find>light-timeline</find>
+      <find>ertical-timeline</find>
+      <find>vertical-timeline</find>
+      <find>lineChart</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/myproject/__init__.py" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/login2.html" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/myproject/settings.py" />
+        <option value="$PROJECT_DIR$/static/css/main(1).css" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/register_handle.html" />
+        <option value="$PROJECT_DIR$/myproject/urls.py" />
+        <option value="$PROJECT_DIR$/static/js/register.js" />
+        <option value="$PROJECT_DIR$/../../1.爬虫模块/weibohot.py" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/163_news.html" />
+        <option value="$PROJECT_DIR$/newsanalysis/migrations/0004_weibohot.py" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/news_163.html" />
+        <option value="$PROJECT_DIR$/../../1.爬虫模块/news163_spider.py" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/newsanalysis/urls.py" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/tendency.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/index.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/login.html" />
+        <option value="$PROJECT_DIR$/newsanalysis/models.py" />
+        <option value="$PROJECT_DIR$/newsanalysis/migrations/0008_sina_weibo_analysis.py" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/sina_top50.html" />
+        <option value="$PROJECT_DIR$/../../1.爬虫模块/tab_row2tab.py" />
+        <option value="$PROJECT_DIR$/../../2.分词模块/weibo_count.py" />
+        <option value="$PROJECT_DIR$/../../3.聚类模块/词云/word_cloud.py" />
+        <option value="$PROJECT_DIR$/../../1.爬虫模块/tab2tab.py" />
+        <option value="$PROJECT_DIR$/../../4.情感分析模块/腾讯情感分析api/analysis2mysql.py" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/point_analysis.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/keyword_search.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/media_analysis.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/base.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/demo.html" />
+        <option value="$PROJECT_DIR$/../../3.聚类模块/LDA/lda_cluster.py" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/toutiao.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/allnews_163/digital_news.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/allnews_163/new_era_news.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/allnews_163/foreign_news_news.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/allnews_163/sports_news.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/allnews_163/stock_financing_news.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/allnews_163/fund_financing_news.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/allnews_163/science_technology_news.html" />
+        <option value="$PROJECT_DIR$/../../2.分词模块/cut_words.py" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/allnews_163/star_entertainment.html" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/allnews_163/domestic_news.html" />
+        <option value="$PROJECT_DIR$/newsanalysis/views.py" />
+        <option value="$PROJECT_DIR$/templates/newsanalysis/register.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="235" />
+    <option name="y" value="45" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="newsanalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="newsanalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="newsanalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="allnews_163" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1.爬虫模块/news163_spider.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\舆情分析\毕业设计\A----项目总纲\5.视图模块\myproject\static\images\project" />
+      <recent name="E:\舆情分析\毕业设计\A----项目总纲\5.视图模块\myproject\static\images" />
+      <recent name="E:\舆情分析\毕业设计\A----项目总纲\5.视图模块\myproject\static\js" />
+      <recent name="E:\舆情分析\毕业设计\A----项目总纲\5.视图模块\myproject\templates\newsanalysis\allnews_163" />
+      <recent name="E:\舆情分析\毕业设计\A----项目总纲\5.视图模块\myproject\templates\newsanalysis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\舆情分析\毕业设计\A----项目总纲\5.视图模块\myproject\static\images\project" />
+      <recent name="E:\舆情分析\毕业设计\myproject\static\images" />
+      <recent name="E:\舆情分析\毕业设计\myproject" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.news163_spider">
+    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myproject/templates/newsanalysis/demo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="analysis2mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../4.情感分析模块/腾讯情感分析api" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../4.情感分析模块/腾讯情感分析api/analysis2mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cut_words" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../2.分词模块" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../2.分词模块/cut_words.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lda_cluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../3.聚类模块/LDA" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../3.聚类模块/LDA/lda_cluster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="news163_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../1.爬虫模块" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../1.爬虫模块/news163_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myproject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.news163_spider" />
+        <item itemvalue="Python.cut_words" />
+        <item itemvalue="Python.lda_cluster" />
+        <item itemvalue="JavaScript Debug.demo.html" />
+        <item itemvalue="Python.analysis2mysql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e33d80c-1333-4203-9e4a-1f08f43a477e" name="Default Changelist" comment="" />
+      <created>1555254009359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555254009359</updated>
+      <workItem from="1555254012229" duration="8492000" />
+      <workItem from="1555304957983" duration="24102000" />
+      <workItem from="1555384894711" duration="12369000" />
+      <workItem from="1555606222064" duration="2708000" />
+      <workItem from="1555638625397" duration="24863000" />
+      <workItem from="1555673668232" duration="8271000" />
+      <workItem from="1555688962928" duration="6606000" />
+      <workItem from="1555734839372" duration="10539000" />
+      <workItem from="1555760279411" duration="6128000" />
+      <workItem from="1555820475419" duration="21679000" />
+      <workItem from="1555918715801" duration="19569000" />
+      <workItem from="1556009977817" duration="406000" />
+      <workItem from="1556033090652" duration="1405000" />
+      <workItem from="1556253124828" duration="17446000" />
+      <workItem from="1556373286944" duration="9077000" />
+      <workItem from="1556439686579" duration="755000" />
+      <workItem from="1556693625952" duration="13461000" />
+      <workItem from="1556767815014" duration="11794000" />
+      <workItem from="1556808873035" duration="245000" />
+      <workItem from="1556814550176" duration="5830000" />
+      <workItem from="1556858197381" duration="15000" />
+      <workItem from="1557058730959" duration="599000" />
+      <workItem from="1557645688282" duration="4553000" />
+      <workItem from="1557675325859" duration="336000" />
+      <workItem from="1557684416497" duration="1404000" />
+      <workItem from="1557714019108" duration="1874000" />
+      <workItem from="1557989746602" duration="1624000" />
+      <workItem from="1558162248664" duration="5968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="222118000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959776" weight="0.16017316" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39874214" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004023" side_tool="true" weight="0.43393603" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49959776" visible="true" weight="0.17316018" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32893157" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32916668" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43393603" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23484848" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../1.爬虫模块/tab_row2tab.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../1.爬虫模块/tab_row2tab.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../1.爬虫模块/tab_row2tab.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/LESS/elements.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="525" column="1" lean-forward="true" selection-start-line="525" selection-start-column="1" selection-end-line="525" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="2450" column="1" selection-start-line="2450" selection-start-column="1" selection-end-line="2450" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/plugins/flot/jquery.flot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="880" column="17" selection-start-line="880" selection-start-column="17" selection-end-line="880" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/demo/flot-demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/plugins/morris/morris.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/demo/morris-demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1704">
+          <caret line="71" column="6" lean-forward="true" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/demo/chartjs-demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="127" selection-end-column="3" />
+          <folding>
+            <element signature="e#14#3622#0" />
+            <element signature="e#36#683#0" />
+            <element signature="e#708#740#0" />
+            <element signature="e#905#1564#0" />
+            <element signature="e#1588#1620#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/avatar-02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../4.情感分析模块/腾讯情感分析api/segAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsanalysis/migrations/0003_sina_weibo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsanalysis/migrations/0008_sina_weibo_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ProgramData/Anaconda3/Lib/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="279" selection-start-line="279" selection-end-line="279" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../1.爬虫模块/tab_row2tab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../2.分词模块/weibo_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../3.聚类模块/词云/word_cloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../1.爬虫模块/tab2tab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../4.情感分析模块/腾讯情感分析api/analysis2mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/project/keyword_index.png" />
+    <entry file="file://$PROJECT_DIR$/static/js/plugins/sweetalert/sweetalert.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ProgramData/Anaconda3/pkgs/notebook-5.7.4-py37_0/Lib/site-packages/notebook/static/style/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="3415" column="18" lean-forward="true" selection-start-line="3415" selection-start-column="18" selection-end-line="3415" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/news_163.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../3.聚类模块/LDA/lda_cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/new_era_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="39" column="110" selection-start-line="39" selection-start-column="110" selection-end-line="39" selection-end-column="110" />
+          <folding>
+            <element signature="e#1173#1179#0#HTML" expanded="true" />
+            <element signature="e#1179#1185#0#HTML" expanded="true" />
+            <element signature="e#1185#1191#0#HTML" expanded="true" />
+            <element signature="e#1191#1197#0#HTML" expanded="true" />
+            <element signature="e#1197#1203#0#HTML" expanded="true" />
+            <element signature="e#1203#1209#0#HTML" expanded="true" />
+            <element signature="e#1209#1215#0#HTML" expanded="true" />
+            <element signature="e#1268#1274#0#HTML" expanded="true" />
+            <element signature="e#1274#1280#0#HTML" expanded="true" />
+            <element signature="e#1280#1286#0#HTML" expanded="true" />
+            <element signature="e#1286#1292#0#HTML" expanded="true" />
+            <element signature="e#1292#1298#0#HTML" expanded="true" />
+            <element signature="e#1298#1304#0#HTML" expanded="true" />
+            <element signature="e#1304#1310#0#HTML" expanded="true" />
+            <element signature="e#1376#1382#0#HTML" expanded="true" />
+            <element signature="e#1382#1388#0#HTML" expanded="true" />
+            <element signature="e#1388#1394#0#HTML" expanded="true" />
+            <element signature="e#1394#1400#0#HTML" expanded="true" />
+            <element signature="e#1400#1406#0#HTML" expanded="true" />
+            <element signature="e#1406#1412#0#HTML" expanded="true" />
+            <element signature="e#1412#1418#0#HTML" expanded="true" />
+            <element signature="e#1477#1483#0#HTML" expanded="true" />
+            <element signature="e#1483#1489#0#HTML" expanded="true" />
+            <element signature="e#1489#1495#0#HTML" expanded="true" />
+            <element signature="e#1495#1501#0#HTML" expanded="true" />
+            <element signature="e#1501#1507#0#HTML" expanded="true" />
+            <element signature="e#1507#1513#0#HTML" expanded="true" />
+            <element signature="e#1513#1519#0#HTML" expanded="true" />
+            <element signature="e#1652#1658#0#HTML" expanded="true" />
+            <element signature="e#1658#1664#0#HTML" expanded="true" />
+            <element signature="e#1664#1670#0#HTML" expanded="true" />
+            <element signature="e#1670#1676#0#HTML" expanded="true" />
+            <element signature="e#1676#1682#0#HTML" expanded="true" />
+            <element signature="e#1682#1688#0#HTML" expanded="true" />
+            <element signature="e#1688#1694#0#HTML" expanded="true" />
+            <element signature="e#1746#1752#0#HTML" expanded="true" />
+            <element signature="e#1752#1758#0#HTML" expanded="true" />
+            <element signature="e#1758#1764#0#HTML" expanded="true" />
+            <element signature="e#1764#1770#0#HTML" expanded="true" />
+            <element signature="e#1770#1776#0#HTML" expanded="true" />
+            <element signature="e#1776#1782#0#HTML" expanded="true" />
+            <element signature="e#1782#1788#0#HTML" expanded="true" />
+            <element signature="e#1857#1863#0#HTML" expanded="true" />
+            <element signature="e#1863#1869#0#HTML" expanded="true" />
+            <element signature="e#1869#1875#0#HTML" expanded="true" />
+            <element signature="e#1875#1881#0#HTML" expanded="true" />
+            <element signature="e#1881#1887#0#HTML" expanded="true" />
+            <element signature="e#1887#1893#0#HTML" expanded="true" />
+            <element signature="e#1893#1899#0#HTML" expanded="true" />
+            <element signature="e#1978#1984#0#HTML" expanded="true" />
+            <element signature="e#1984#1990#0#HTML" expanded="true" />
+            <element signature="e#1990#1996#0#HTML" expanded="true" />
+            <element signature="e#1996#2002#0#HTML" expanded="true" />
+            <element signature="e#2002#2008#0#HTML" expanded="true" />
+            <element signature="e#2008#2014#0#HTML" expanded="true" />
+            <element signature="e#2014#2020#0#HTML" expanded="true" />
+            <element signature="e#9517#9535#0#DjangoTemplate" />
+            <element signature="e#9634#9653#0#DjangoTemplate" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/foreign_news_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="39" column="115" selection-start-line="39" selection-start-column="115" selection-end-line="39" selection-end-column="115" />
+          <folding>
+            <element signature="e#556#716#0#HTML" expanded="true" />
+            <element signature="e#1173#1179#0#HTML" expanded="true" />
+            <element signature="e#1179#1185#0#HTML" expanded="true" />
+            <element signature="e#1185#1191#0#HTML" expanded="true" />
+            <element signature="e#1191#1197#0#HTML" expanded="true" />
+            <element signature="e#1197#1203#0#HTML" expanded="true" />
+            <element signature="e#1203#1209#0#HTML" expanded="true" />
+            <element signature="e#1209#1215#0#HTML" expanded="true" />
+            <element signature="e#1268#1274#0#HTML" expanded="true" />
+            <element signature="e#1274#1280#0#HTML" expanded="true" />
+            <element signature="e#1280#1286#0#HTML" expanded="true" />
+            <element signature="e#1286#1292#0#HTML" expanded="true" />
+            <element signature="e#1292#1298#0#HTML" expanded="true" />
+            <element signature="e#1298#1304#0#HTML" expanded="true" />
+            <element signature="e#1304#1310#0#HTML" expanded="true" />
+            <element signature="e#1376#1382#0#HTML" expanded="true" />
+            <element signature="e#1382#1388#0#HTML" expanded="true" />
+            <element signature="e#1388#1394#0#HTML" expanded="true" />
+            <element signature="e#1394#1400#0#HTML" expanded="true" />
+            <element signature="e#1400#1406#0#HTML" expanded="true" />
+            <element signature="e#1406#1412#0#HTML" expanded="true" />
+            <element signature="e#1412#1418#0#HTML" expanded="true" />
+            <element signature="e#1477#1483#0#HTML" expanded="true" />
+            <element signature="e#1483#1489#0#HTML" expanded="true" />
+            <element signature="e#1489#1495#0#HTML" expanded="true" />
+            <element signature="e#1495#1501#0#HTML" expanded="true" />
+            <element signature="e#1501#1507#0#HTML" expanded="true" />
+            <element signature="e#1507#1513#0#HTML" expanded="true" />
+            <element signature="e#1513#1519#0#HTML" expanded="true" />
+            <element signature="e#1652#1658#0#HTML" expanded="true" />
+            <element signature="e#1658#1664#0#HTML" expanded="true" />
+            <element signature="e#1664#1670#0#HTML" expanded="true" />
+            <element signature="e#1670#1676#0#HTML" expanded="true" />
+            <element signature="e#1676#1682#0#HTML" expanded="true" />
+            <element signature="e#1682#1688#0#HTML" expanded="true" />
+            <element signature="e#1688#1694#0#HTML" expanded="true" />
+            <element signature="e#1746#1752#0#HTML" expanded="true" />
+            <element signature="e#1752#1758#0#HTML" expanded="true" />
+            <element signature="e#1758#1764#0#HTML" expanded="true" />
+            <element signature="e#1764#1770#0#HTML" expanded="true" />
+            <element signature="e#1770#1776#0#HTML" expanded="true" />
+            <element signature="e#1776#1782#0#HTML" expanded="true" />
+            <element signature="e#1782#1788#0#HTML" expanded="true" />
+            <element signature="e#1857#1863#0#HTML" expanded="true" />
+            <element signature="e#1863#1869#0#HTML" expanded="true" />
+            <element signature="e#1869#1875#0#HTML" expanded="true" />
+            <element signature="e#1875#1881#0#HTML" expanded="true" />
+            <element signature="e#1881#1887#0#HTML" expanded="true" />
+            <element signature="e#1887#1893#0#HTML" expanded="true" />
+            <element signature="e#1893#1899#0#HTML" expanded="true" />
+            <element signature="e#1978#1984#0#HTML" expanded="true" />
+            <element signature="e#1984#1990#0#HTML" expanded="true" />
+            <element signature="e#1990#1996#0#HTML" expanded="true" />
+            <element signature="e#1996#2002#0#HTML" expanded="true" />
+            <element signature="e#2002#2008#0#HTML" expanded="true" />
+            <element signature="e#2008#2014#0#HTML" expanded="true" />
+            <element signature="e#2014#2020#0#HTML" expanded="true" />
+            <element signature="e#9576#9594#0#DjangoTemplate" />
+            <element signature="e#9693#9712#0#DjangoTemplate" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/sports_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="39" column="89" selection-start-line="39" selection-start-column="89" selection-end-line="39" selection-end-column="89" />
+          <folding>
+            <element signature="e#1173#1179#0#HTML" expanded="true" />
+            <element signature="e#1179#1185#0#HTML" expanded="true" />
+            <element signature="e#1185#1191#0#HTML" expanded="true" />
+            <element signature="e#1191#1197#0#HTML" expanded="true" />
+            <element signature="e#1197#1203#0#HTML" expanded="true" />
+            <element signature="e#1203#1209#0#HTML" expanded="true" />
+            <element signature="e#1209#1215#0#HTML" expanded="true" />
+            <element signature="e#1268#1274#0#HTML" expanded="true" />
+            <element signature="e#1274#1280#0#HTML" expanded="true" />
+            <element signature="e#1280#1286#0#HTML" expanded="true" />
+            <element signature="e#1286#1292#0#HTML" expanded="true" />
+            <element signature="e#1292#1298#0#HTML" expanded="true" />
+            <element signature="e#1298#1304#0#HTML" expanded="true" />
+            <element signature="e#1304#1310#0#HTML" expanded="true" />
+            <element signature="e#1376#1382#0#HTML" expanded="true" />
+            <element signature="e#1382#1388#0#HTML" expanded="true" />
+            <element signature="e#1388#1394#0#HTML" expanded="true" />
+            <element signature="e#1394#1400#0#HTML" expanded="true" />
+            <element signature="e#1400#1406#0#HTML" expanded="true" />
+            <element signature="e#1406#1412#0#HTML" expanded="true" />
+            <element signature="e#1412#1418#0#HTML" expanded="true" />
+            <element signature="e#1477#1483#0#HTML" expanded="true" />
+            <element signature="e#1483#1489#0#HTML" expanded="true" />
+            <element signature="e#1489#1495#0#HTML" expanded="true" />
+            <element signature="e#1495#1501#0#HTML" expanded="true" />
+            <element signature="e#1501#1507#0#HTML" expanded="true" />
+            <element signature="e#1507#1513#0#HTML" expanded="true" />
+            <element signature="e#1513#1519#0#HTML" expanded="true" />
+            <element signature="e#1652#1658#0#HTML" expanded="true" />
+            <element signature="e#1658#1664#0#HTML" expanded="true" />
+            <element signature="e#1664#1670#0#HTML" expanded="true" />
+            <element signature="e#1670#1676#0#HTML" expanded="true" />
+            <element signature="e#1676#1682#0#HTML" expanded="true" />
+            <element signature="e#1682#1688#0#HTML" expanded="true" />
+            <element signature="e#1688#1694#0#HTML" expanded="true" />
+            <element signature="e#1746#1752#0#HTML" expanded="true" />
+            <element signature="e#1752#1758#0#HTML" expanded="true" />
+            <element signature="e#1758#1764#0#HTML" expanded="true" />
+            <element signature="e#1764#1770#0#HTML" expanded="true" />
+            <element signature="e#1770#1776#0#HTML" expanded="true" />
+            <element signature="e#1776#1782#0#HTML" expanded="true" />
+            <element signature="e#1782#1788#0#HTML" expanded="true" />
+            <element signature="e#1857#1863#0#HTML" expanded="true" />
+            <element signature="e#1863#1869#0#HTML" expanded="true" />
+            <element signature="e#1869#1875#0#HTML" expanded="true" />
+            <element signature="e#1875#1881#0#HTML" expanded="true" />
+            <element signature="e#1881#1887#0#HTML" expanded="true" />
+            <element signature="e#1887#1893#0#HTML" expanded="true" />
+            <element signature="e#1893#1899#0#HTML" expanded="true" />
+            <element signature="e#1978#1984#0#HTML" expanded="true" />
+            <element signature="e#1984#1990#0#HTML" expanded="true" />
+            <element signature="e#1990#1996#0#HTML" expanded="true" />
+            <element signature="e#1996#2002#0#HTML" expanded="true" />
+            <element signature="e#2002#2008#0#HTML" expanded="true" />
+            <element signature="e#2008#2014#0#HTML" expanded="true" />
+            <element signature="e#2014#2020#0#HTML" expanded="true" />
+            <element signature="e#9524#9542#0#DjangoTemplate" />
+            <element signature="e#9641#9660#0#DjangoTemplate" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/stock_financing_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="39" column="113" selection-start-line="39" selection-start-column="113" selection-end-line="39" selection-end-column="113" />
+          <folding>
+            <element signature="e#1173#1179#0#HTML" expanded="true" />
+            <element signature="e#1179#1185#0#HTML" expanded="true" />
+            <element signature="e#1185#1191#0#HTML" expanded="true" />
+            <element signature="e#1191#1197#0#HTML" expanded="true" />
+            <element signature="e#1197#1203#0#HTML" expanded="true" />
+            <element signature="e#1203#1209#0#HTML" expanded="true" />
+            <element signature="e#1209#1215#0#HTML" expanded="true" />
+            <element signature="e#1268#1274#0#HTML" expanded="true" />
+            <element signature="e#1274#1280#0#HTML" expanded="true" />
+            <element signature="e#1280#1286#0#HTML" expanded="true" />
+            <element signature="e#1286#1292#0#HTML" expanded="true" />
+            <element signature="e#1292#1298#0#HTML" expanded="true" />
+            <element signature="e#1298#1304#0#HTML" expanded="true" />
+            <element signature="e#1304#1310#0#HTML" expanded="true" />
+            <element signature="e#1376#1382#0#HTML" expanded="true" />
+            <element signature="e#1382#1388#0#HTML" expanded="true" />
+            <element signature="e#1388#1394#0#HTML" expanded="true" />
+            <element signature="e#1394#1400#0#HTML" expanded="true" />
+            <element signature="e#1400#1406#0#HTML" expanded="true" />
+            <element signature="e#1406#1412#0#HTML" expanded="true" />
+            <element signature="e#1412#1418#0#HTML" expanded="true" />
+            <element signature="e#1477#1483#0#HTML" expanded="true" />
+            <element signature="e#1483#1489#0#HTML" expanded="true" />
+            <element signature="e#1489#1495#0#HTML" expanded="true" />
+            <element signature="e#1495#1501#0#HTML" expanded="true" />
+            <element signature="e#1501#1507#0#HTML" expanded="true" />
+            <element signature="e#1507#1513#0#HTML" expanded="true" />
+            <element signature="e#1513#1519#0#HTML" expanded="true" />
+            <element signature="e#1652#1658#0#HTML" expanded="true" />
+            <element signature="e#1658#1664#0#HTML" expanded="true" />
+            <element signature="e#1664#1670#0#HTML" expanded="true" />
+            <element signature="e#1670#1676#0#HTML" expanded="true" />
+            <element signature="e#1676#1682#0#HTML" expanded="true" />
+            <element signature="e#1682#1688#0#HTML" expanded="true" />
+            <element signature="e#1688#1694#0#HTML" expanded="true" />
+            <element signature="e#1746#1752#0#HTML" expanded="true" />
+            <element signature="e#1752#1758#0#HTML" expanded="true" />
+            <element signature="e#1758#1764#0#HTML" expanded="true" />
+            <element signature="e#1764#1770#0#HTML" expanded="true" />
+            <element signature="e#1770#1776#0#HTML" expanded="true" />
+            <element signature="e#1776#1782#0#HTML" expanded="true" />
+            <element signature="e#1782#1788#0#HTML" expanded="true" />
+            <element signature="e#1857#1863#0#HTML" expanded="true" />
+            <element signature="e#1863#1869#0#HTML" expanded="true" />
+            <element signature="e#1869#1875#0#HTML" expanded="true" />
+            <element signature="e#1875#1881#0#HTML" expanded="true" />
+            <element signature="e#1881#1887#0#HTML" expanded="true" />
+            <element signature="e#1887#1893#0#HTML" expanded="true" />
+            <element signature="e#1893#1899#0#HTML" expanded="true" />
+            <element signature="e#1978#1984#0#HTML" expanded="true" />
+            <element signature="e#1984#1990#0#HTML" expanded="true" />
+            <element signature="e#1990#1996#0#HTML" expanded="true" />
+            <element signature="e#1996#2002#0#HTML" expanded="true" />
+            <element signature="e#2002#2008#0#HTML" expanded="true" />
+            <element signature="e#2008#2014#0#HTML" expanded="true" />
+            <element signature="e#2014#2020#0#HTML" expanded="true" />
+            <element signature="e#9524#9542#0#DjangoTemplate" />
+            <element signature="e#9641#9660#0#DjangoTemplate" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/fund_financing_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <element signature="e#1173#1179#0#HTML" expanded="true" />
+            <element signature="e#1179#1185#0#HTML" expanded="true" />
+            <element signature="e#1185#1191#0#HTML" expanded="true" />
+            <element signature="e#1191#1197#0#HTML" expanded="true" />
+            <element signature="e#1197#1203#0#HTML" expanded="true" />
+            <element signature="e#1203#1209#0#HTML" expanded="true" />
+            <element signature="e#1209#1215#0#HTML" expanded="true" />
+            <element signature="e#1268#1274#0#HTML" expanded="true" />
+            <element signature="e#1274#1280#0#HTML" expanded="true" />
+            <element signature="e#1280#1286#0#HTML" expanded="true" />
+            <element signature="e#1286#1292#0#HTML" expanded="true" />
+            <element signature="e#1292#1298#0#HTML" expanded="true" />
+            <element signature="e#1298#1304#0#HTML" expanded="true" />
+            <element signature="e#1304#1310#0#HTML" expanded="true" />
+            <element signature="e#1376#1382#0#HTML" expanded="true" />
+            <element signature="e#1382#1388#0#HTML" expanded="true" />
+            <element signature="e#1388#1394#0#HTML" expanded="true" />
+            <element signature="e#1394#1400#0#HTML" expanded="true" />
+            <element signature="e#1400#1406#0#HTML" expanded="true" />
+            <element signature="e#1406#1412#0#HTML" expanded="true" />
+            <element signature="e#1412#1418#0#HTML" expanded="true" />
+            <element signature="e#1477#1483#0#HTML" expanded="true" />
+            <element signature="e#1483#1489#0#HTML" expanded="true" />
+            <element signature="e#1489#1495#0#HTML" expanded="true" />
+            <element signature="e#1495#1501#0#HTML" expanded="true" />
+            <element signature="e#1501#1507#0#HTML" expanded="true" />
+            <element signature="e#1507#1513#0#HTML" expanded="true" />
+            <element signature="e#1513#1519#0#HTML" expanded="true" />
+            <element signature="e#1652#1658#0#HTML" expanded="true" />
+            <element signature="e#1658#1664#0#HTML" expanded="true" />
+            <element signature="e#1664#1670#0#HTML" expanded="true" />
+            <element signature="e#1670#1676#0#HTML" expanded="true" />
+            <element signature="e#1676#1682#0#HTML" expanded="true" />
+            <element signature="e#1682#1688#0#HTML" expanded="true" />
+            <element signature="e#1688#1694#0#HTML" expanded="true" />
+            <element signature="e#1746#1752#0#HTML" expanded="true" />
+            <element signature="e#1752#1758#0#HTML" expanded="true" />
+            <element signature="e#1758#1764#0#HTML" expanded="true" />
+            <element signature="e#1764#1770#0#HTML" expanded="true" />
+            <element signature="e#1770#1776#0#HTML" expanded="true" />
+            <element signature="e#1776#1782#0#HTML" expanded="true" />
+            <element signature="e#1782#1788#0#HTML" expanded="true" />
+            <element signature="e#1857#1863#0#HTML" expanded="true" />
+            <element signature="e#1863#1869#0#HTML" expanded="true" />
+            <element signature="e#1869#1875#0#HTML" expanded="true" />
+            <element signature="e#1875#1881#0#HTML" expanded="true" />
+            <element signature="e#1881#1887#0#HTML" expanded="true" />
+            <element signature="e#1887#1893#0#HTML" expanded="true" />
+            <element signature="e#1893#1899#0#HTML" expanded="true" />
+            <element signature="e#1978#1984#0#HTML" expanded="true" />
+            <element signature="e#1984#1990#0#HTML" expanded="true" />
+            <element signature="e#1990#1996#0#HTML" expanded="true" />
+            <element signature="e#1996#2002#0#HTML" expanded="true" />
+            <element signature="e#2002#2008#0#HTML" expanded="true" />
+            <element signature="e#2008#2014#0#HTML" expanded="true" />
+            <element signature="e#2014#2020#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/science_technology_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="39" column="111" selection-start-line="39" selection-start-column="111" selection-end-line="39" selection-end-column="111" />
+          <folding>
+            <element signature="e#1173#1179#0#HTML" expanded="true" />
+            <element signature="e#1179#1185#0#HTML" expanded="true" />
+            <element signature="e#1185#1191#0#HTML" expanded="true" />
+            <element signature="e#1191#1197#0#HTML" expanded="true" />
+            <element signature="e#1197#1203#0#HTML" expanded="true" />
+            <element signature="e#1203#1209#0#HTML" expanded="true" />
+            <element signature="e#1209#1215#0#HTML" expanded="true" />
+            <element signature="e#1268#1274#0#HTML" expanded="true" />
+            <element signature="e#1274#1280#0#HTML" expanded="true" />
+            <element signature="e#1280#1286#0#HTML" expanded="true" />
+            <element signature="e#1286#1292#0#HTML" expanded="true" />
+            <element signature="e#1292#1298#0#HTML" expanded="true" />
+            <element signature="e#1298#1304#0#HTML" expanded="true" />
+            <element signature="e#1304#1310#0#HTML" expanded="true" />
+            <element signature="e#1376#1382#0#HTML" expanded="true" />
+            <element signature="e#1382#1388#0#HTML" expanded="true" />
+            <element signature="e#1388#1394#0#HTML" expanded="true" />
+            <element signature="e#1394#1400#0#HTML" expanded="true" />
+            <element signature="e#1400#1406#0#HTML" expanded="true" />
+            <element signature="e#1406#1412#0#HTML" expanded="true" />
+            <element signature="e#1412#1418#0#HTML" expanded="true" />
+            <element signature="e#1477#1483#0#HTML" expanded="true" />
+            <element signature="e#1483#1489#0#HTML" expanded="true" />
+            <element signature="e#1489#1495#0#HTML" expanded="true" />
+            <element signature="e#1495#1501#0#HTML" expanded="true" />
+            <element signature="e#1501#1507#0#HTML" expanded="true" />
+            <element signature="e#1507#1513#0#HTML" expanded="true" />
+            <element signature="e#1513#1519#0#HTML" expanded="true" />
+            <element signature="e#1652#1658#0#HTML" expanded="true" />
+            <element signature="e#1658#1664#0#HTML" expanded="true" />
+            <element signature="e#1664#1670#0#HTML" expanded="true" />
+            <element signature="e#1670#1676#0#HTML" expanded="true" />
+            <element signature="e#1676#1682#0#HTML" expanded="true" />
+            <element signature="e#1682#1688#0#HTML" expanded="true" />
+            <element signature="e#1688#1694#0#HTML" expanded="true" />
+            <element signature="e#1746#1752#0#HTML" expanded="true" />
+            <element signature="e#1752#1758#0#HTML" expanded="true" />
+            <element signature="e#1758#1764#0#HTML" expanded="true" />
+            <element signature="e#1764#1770#0#HTML" expanded="true" />
+            <element signature="e#1770#1776#0#HTML" expanded="true" />
+            <element signature="e#1776#1782#0#HTML" expanded="true" />
+            <element signature="e#1782#1788#0#HTML" expanded="true" />
+            <element signature="e#1857#1863#0#HTML" expanded="true" />
+            <element signature="e#1863#1869#0#HTML" expanded="true" />
+            <element signature="e#1869#1875#0#HTML" expanded="true" />
+            <element signature="e#1875#1881#0#HTML" expanded="true" />
+            <element signature="e#1881#1887#0#HTML" expanded="true" />
+            <element signature="e#1887#1893#0#HTML" expanded="true" />
+            <element signature="e#1893#1899#0#HTML" expanded="true" />
+            <element signature="e#1978#1984#0#HTML" expanded="true" />
+            <element signature="e#1984#1990#0#HTML" expanded="true" />
+            <element signature="e#1990#1996#0#HTML" expanded="true" />
+            <element signature="e#1996#2002#0#HTML" expanded="true" />
+            <element signature="e#2002#2008#0#HTML" expanded="true" />
+            <element signature="e#2008#2014#0#HTML" expanded="true" />
+            <element signature="e#2014#2020#0#HTML" expanded="true" />
+            <element signature="e#9525#9543#0#DjangoTemplate" />
+            <element signature="e#9642#9661#0#DjangoTemplate" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/star_entertainment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+          <folding>
+            <element signature="e#1173#1179#0#HTML" expanded="true" />
+            <element signature="e#1179#1185#0#HTML" expanded="true" />
+            <element signature="e#1185#1191#0#HTML" expanded="true" />
+            <element signature="e#1191#1197#0#HTML" expanded="true" />
+            <element signature="e#1197#1203#0#HTML" expanded="true" />
+            <element signature="e#1203#1209#0#HTML" expanded="true" />
+            <element signature="e#1209#1215#0#HTML" expanded="true" />
+            <element signature="e#1268#1274#0#HTML" expanded="true" />
+            <element signature="e#1274#1280#0#HTML" expanded="true" />
+            <element signature="e#1280#1286#0#HTML" expanded="true" />
+            <element signature="e#1286#1292#0#HTML" expanded="true" />
+            <element signature="e#1292#1298#0#HTML" expanded="true" />
+            <element signature="e#1298#1304#0#HTML" expanded="true" />
+            <element signature="e#1304#1310#0#HTML" expanded="true" />
+            <element signature="e#1376#1382#0#HTML" expanded="true" />
+            <element signature="e#1382#1388#0#HTML" expanded="true" />
+            <element signature="e#1388#1394#0#HTML" expanded="true" />
+            <element signature="e#1394#1400#0#HTML" expanded="true" />
+            <element signature="e#1400#1406#0#HTML" expanded="true" />
+            <element signature="e#1406#1412#0#HTML" expanded="true" />
+            <element signature="e#1412#1418#0#HTML" expanded="true" />
+            <element signature="e#1477#1483#0#HTML" expanded="true" />
+            <element signature="e#1483#1489#0#HTML" expanded="true" />
+            <element signature="e#1489#1495#0#HTML" expanded="true" />
+            <element signature="e#1495#1501#0#HTML" expanded="true" />
+            <element signature="e#1501#1507#0#HTML" expanded="true" />
+            <element signature="e#1507#1513#0#HTML" expanded="true" />
+            <element signature="e#1513#1519#0#HTML" expanded="true" />
+            <element signature="e#1652#1658#0#HTML" expanded="true" />
+            <element signature="e#1658#1664#0#HTML" expanded="true" />
+            <element signature="e#1664#1670#0#HTML" expanded="true" />
+            <element signature="e#1670#1676#0#HTML" expanded="true" />
+            <element signature="e#1676#1682#0#HTML" expanded="true" />
+            <element signature="e#1682#1688#0#HTML" expanded="true" />
+            <element signature="e#1688#1694#0#HTML" expanded="true" />
+            <element signature="e#1746#1752#0#HTML" expanded="true" />
+            <element signature="e#1752#1758#0#HTML" expanded="true" />
+            <element signature="e#1758#1764#0#HTML" expanded="true" />
+            <element signature="e#1764#1770#0#HTML" expanded="true" />
+            <element signature="e#1770#1776#0#HTML" expanded="true" />
+            <element signature="e#1776#1782#0#HTML" expanded="true" />
+            <element signature="e#1782#1788#0#HTML" expanded="true" />
+            <element signature="e#1857#1863#0#HTML" expanded="true" />
+            <element signature="e#1863#1869#0#HTML" expanded="true" />
+            <element signature="e#1869#1875#0#HTML" expanded="true" />
+            <element signature="e#1875#1881#0#HTML" expanded="true" />
+            <element signature="e#1881#1887#0#HTML" expanded="true" />
+            <element signature="e#1887#1893#0#HTML" expanded="true" />
+            <element signature="e#1893#1899#0#HTML" expanded="true" />
+            <element signature="e#1978#1984#0#HTML" expanded="true" />
+            <element signature="e#1984#1990#0#HTML" expanded="true" />
+            <element signature="e#1990#1996#0#HTML" expanded="true" />
+            <element signature="e#1996#2002#0#HTML" expanded="true" />
+            <element signature="e#2002#2008#0#HTML" expanded="true" />
+            <element signature="e#2008#2014#0#HTML" expanded="true" />
+            <element signature="e#2014#2020#0#HTML" expanded="true" />
+            <element signature="e#9524#9542#0#DjangoTemplate" />
+            <element signature="e#9641#9660#0#DjangoTemplate" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../2.分词模块/cut_words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5424">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10008">
+          <caret line="417" selection-start-line="417" selection-end-line="417" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/keyword_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="207" column="70" selection-start-line="207" selection-start-column="49" selection-end-line="207" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/media_analysis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsanalysis/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/toutiao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/tendency.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/sina_top50.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2259">
+          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/point_analysis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1536">
+          <caret line="152" column="39" selection-start-line="152" selection-start-column="39" selection-end-line="152" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/domestic_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1752">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="41" column="62" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsanalysis/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsanalysis/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsanalysis/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsanalysis/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="395" column="13" selection-start-line="395" selection-start-column="13" selection-end-line="395" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../1.爬虫模块/news163_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newsanalysis/allnews_163/digital_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="38" column="79" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,79 @@
+{% extends 'newsanalysis/base.html' %}
+{% block title  %}网易新闻{% endblock title %}
+{% block p1 %}
+
+            <div class="col-sm-4">
+                <h2>网易新闻</h2>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">主页</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <strong>网易</strong>
+                    </li>
+                </ol>
+
+        </div>
+
+{% endblock p1 %}
+
+{% block p2 %}
+
+                                <thead>
+                                <tr>
+
+                                    <th class="project-title">标题</th>
+                                    <th class="project-title">来源</th>
+                                    <th class="project-title">新闻类型</th>
+                                    <th class="project-title">情感偏向</th>
+                                    <th class="project-title" >发表时间</th>
+
+
+                                </tr>
+                                </thead>
+
+                                <tbody>
+
+                                {% for item in items %}
+                                <tr>
+                                <td >
+                                    <a href={{ item.url }}>
+                                        {{item.title}}
+                                    </a>
+                                </td>
+                                <td >
+                                    {{item.source}}
+                                </td>
+                                    <td>
+                                        国内新闻
+                                    </td>
+                                    <td>
+                                        {% if item.analysis == '0' %}
+                                            <span>中立</span>
+                                        {% elif item.analysis == '1'%}
+                                            <span>积极</span>
+                                        {% else %}
+                                            <span>消极</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {{ item.time }}
+                                    </td>
+
+                                </tr>
+
+                                {% endfor %}
+
+
+
+
+                                </tbody>
+                                <tfoot>
+                                <tr>
+                                    <td colspan="6">
+                                        <ul class="pagination float-right"></ul>
+                                    </td>
+                                </tr>
+                                </tfoot>
+                            </table>
+{% endblock p2 %}
